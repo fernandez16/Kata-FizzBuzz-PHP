@@ -39,7 +39,7 @@ class FizzBuzzTest extends TestCase
         // Then
         $this->assertEquals("FizzBuzz", $result);
     }
-    
+
     public function test_fizz_if_it_contains_3()
     {
         // Given
@@ -50,7 +50,7 @@ class FizzBuzzTest extends TestCase
         // Then
         $this->assertEquals("Fizz", $result);
     }
-    
+
     public function test_buzz_if_it_contains_5()
     {
         // Given
@@ -83,4 +83,16 @@ class FizzBuzzTest extends TestCase
         // Then
         $this->assertEquals(4, $result);
     }
+    
+    // public function test_fizz_buzz_iteration_to_100()
+    // {
+    //     // Given
+    //     for ($number = 1; $number <= 100; $number++) {
+    //         $fizzBuzz = new FizzBuzz;
+    //         // When
+    //         $result = $fizzBuzz->FizzBuzz($number);
+    //         // Then
+    //         $this->assertEquals("test", $result);
+    //     }
+    // }
 }
